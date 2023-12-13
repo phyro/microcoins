@@ -6,6 +6,7 @@ Minimal implementation of ecash which is mostly based on Micali and Rivest's wor
 
 _NOTE: A serious implementation would use better data structures and have all kinds of security measures that this one lacks including code audit, locking for atomic updates, patching resource attack vectors etc._
 
+**The VRF implementation works only on Python 2.7 so this won't work on 3.X.**
 
 ### References:
 
